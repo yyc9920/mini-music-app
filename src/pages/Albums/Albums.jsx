@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
-import { getAlbum } from "./musics"
+import { getAlbum } from "../../musics"
+import SongBox from "../Songs/SongBox/SongBox"
+import './albums.scss'
 
 function Albums() {
     let params = useParams();
@@ -7,15 +9,18 @@ function Albums() {
     return (
         <div className="albumDetail">
             <div className="albumDetail__cover">
-                <img src={albumInfo.cover}></img>
+                <img
+                    src={albumInfo.cover}
+                    style={{ maxWidth: 15 + "em" }}
+                ></img>
             </div>
             <div className="albumDetail__info">
-                <h1>{albumInfo.album}</h1>
-                <h3>{albumInfo.artist}</h3>
-                <p>{`${albumInfo.release}･${albumInfo.genre}`}</p>
+                <h1 className="mb">{albumInfo.album}</h1>
+                <h3 className="mb">{albumInfo.artist}</h3>
+                <p className="mb">{`${albumInfo.release}･${albumInfo.genre}`}</p>
             </div>
             <div className="albumDetail__playlist">
-
+                <SongBox album={albumInfo.album} />
             </div>
         </div>
     )

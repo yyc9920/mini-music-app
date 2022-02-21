@@ -1,0 +1,27 @@
+.songBox {
+    display: block;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+        &__num {
+            flex: 1;
+        }
+
+        &__song {
+            flex: 1;
+        }
+
+        &__playtime {
+            flex: 1;
+        }
+    }
+}
+
+// .mr {
+//     margin-right: 10em;
+// }

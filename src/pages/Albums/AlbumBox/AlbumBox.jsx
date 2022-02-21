@@ -1,5 +1,5 @@
 import QueryNavLink from "../../../QueryNavLink"
-import { getAlbum } from "../musics.js"
+import { getAlbum } from "../../../musics.js"
 import './albumBox.scss'
 
 export default function AlbumBox(props) {

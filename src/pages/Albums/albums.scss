@@ -1,0 +1,27 @@
+.albumDetail {
+    display: flex;
+    justify-content: flex-start;
+
+    // &__cover {
+    //     flex : 1;
+    // }
+
+    &__info {
+        margin-left: 2em;
+        padding-top: 4em;
+
+        p {
+            color: rgb(99, 99, 99);
+        }
+    }
+
+    &__playlist {
+        position: absolute;
+        width: 60em;
+        margin-top: 17em;
+    }
+}
+
+.mb {
+    margin-bottom: 10px;
+}

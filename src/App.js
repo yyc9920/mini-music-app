@@ -7,7 +7,7 @@ import New from './pages/New';
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
 import Albums from './pages/Albums/Albums';
-import AlbumList from './pages/Albums/AlbumBox/AlbumList';
+import AlbumList from './pages/Albums/AlbumList/AlbumList';
 import Songs from './pages/Songs';
 
 function App() {

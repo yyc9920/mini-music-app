@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { getMusics } from "../musics.js"
-import AlbumBox from "./AlbumBox"
+import { getMusics } from "../../../musics.js"
+import AlbumBox from "../AlbumBox/AlbumBox"
 import './albumList.scss'
 let groupBy = require("json-groupby");
 
