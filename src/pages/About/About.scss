@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__desc {
+        flex: 1;
+
+        a {
+            margin-right: 4rem;
+            i {
+                font-size: 6rem;
+            }
+        }
+    }
+
+    &__profile {
+        flex: 1;
+        border-radius: 60%;
+        max-width: 22rem;
+        margin-right: 5rem;
+    }
+}
