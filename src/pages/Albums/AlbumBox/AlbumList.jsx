@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
-import musics from "./musics.js"
-import './albumlist.scss';
+import { getMusics } from "../musics.js"
+import AlbumBox from "./AlbumBox"
+import './albumList.scss'
 let groupBy = require("json-groupby");
 
-console.log("musics : " + musics);
+let musics = getMusics();
 let album_cover = groupBy(musics["musics"], ['album'], ['cover']);
-console.log(album_cover);
 let albums = Object.keys(album_cover);
-console.log(albums[0]);
-console.log(album_cover[albums[0]]);
 
 function AlbumList() {
     return(
@@ -17,11 +15,7 @@ function AlbumList() {
             <div className="album__list">
                 {
                     albums.map(a => (
-                        <img
-                            className="album__img"
-                            key={a}
-                            src={album_cover[a]['cover'][0]}
-                        ></img>
+                        <AlbumBox key={a} album={a} />
                     ))
                 }
             </div>

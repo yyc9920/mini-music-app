@@ -150,7 +150,35 @@ let musics = {
             "genre": "R&B",
             "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
         },
+        {
+            "num": 1,
+            "song": "Crescent Moon",
+            "artist": "Conor Albert, James Smith",
+            "album": "Crescent Moon",
+            "release": "2021.11.11",
+            "playtime": 200,
+            "genre": "R&B",
+            "cover": "https://imagescdn.junodownload.com/300/CS5336022-02A-MED.jpg"
+        },
+        {
+            "num": 1,
+            "song": "At My Worst",
+            "artist": "Pink Sweat$",
+            "album": "At My Worst",
+            "release": "2021.1.27",
+            "playtime": 170,
+            "genre": "R&B",
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+        },
     ]
 }
 
-export default musics;
+export function getMusics() {
+    return musics;
+};
+
+export function getAlbum(album) {
+    return musics["musics"].find(
+        music => music.album === album
+    );
+}
