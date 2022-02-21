@@ -8,6 +8,7 @@ import New from './pages/New';
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
 import Albums from './pages/Albums';
+import AlbumList from './pages/Albums/AlbumList';
 import Songs from './pages/Songs';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
                     <Route index element={<Dashboard />} />
                     <Route path='/chart' element={<Chart />} />
                     <Route path='/new' element={<New />} />
-                    <Route path='/albums' element={<Albums />} />
+                    <Route path='/albums' element={<AlbumList />} />
                     <Route path='/songs' element={<Songs />} />
                     <Route path='/about' element={<About />} />
                 </Route>
