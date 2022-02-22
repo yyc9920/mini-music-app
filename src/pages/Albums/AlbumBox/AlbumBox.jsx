@@ -12,6 +12,9 @@ export default function AlbumBox(props) {
                 className="albumBox__img"
                 src={albumInfo.cover}
             ></img>
+            <div className="iconBox">
+                <i className='bx bx-play icon'></i>
+            </div>
         </QueryNavLink>
         <QueryNavLink to={`/albums/${albumInfo.album}`}>
             <div className="albumBox__album">

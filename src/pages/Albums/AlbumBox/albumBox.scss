@@ -1,9 +1,11 @@
 .albumBox {
     margin: 10px 10px 10px 0;
     float: left;
+    position: relative;
 
     &__album {
         margin-top: 10px;
+        font-weight: bold;
     }
 
     &__album:hover {
@@ -13,4 +15,51 @@
     &__artist {
         margin-top: 10px;
     }
+}
+
+.iconBox {
+    position: absolute;
+    width: 3.13em;
+    height: 3.13em;
+    // left: 10px;
+    bottom: 62px;
+    font-size: 4rem;
+    color: white;
+    z-index: 1000;
+    opacity: 0;
+    background: linear-gradient(transparent, black);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    i {
+        margin-top: 2.1em;
+    }
+}
+
+.iconBox:hover {
+    opacity: 1;
+    background: linear-gradient(transparent, black);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon {
+    color: white;
+    transform: scale(1, 1);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.icon:hover {
+    color:red;
+    transform: scale(1.2, 1.2);
 }
