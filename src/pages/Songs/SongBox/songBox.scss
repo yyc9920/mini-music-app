@@ -2,26 +2,17 @@
     display: block;
 
     &__container {
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: space-around;
+        grid-template-columns: 100px 2fr 0.2fr;
         padding: 10px;
         border-bottom: 1px solid rgba(0,0,0,0.1);
-    
-        &__num {
-            flex: 1;
-        }
+    }
 
-        &__song {
-            flex: 1;
-        }
-
-        &__playtime {
-            flex: 1;
+    &__playtime {
+        p {
+            color: rgb(120, 120, 120);
+            font-size: 0.9rem;
         }
     }
 }
-
-// .mr {
-//     margin-right: 10em;
-// }

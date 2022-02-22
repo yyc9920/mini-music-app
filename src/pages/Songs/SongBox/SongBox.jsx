@@ -11,10 +11,10 @@ export default function SongBox(props) {
         {
             songs.map(song =>
                 <div className="songBox__container">
-                    <div className="songBox__num mr">{song.num}</div>
-                    <div className="songBox__song mr">{song.song}</div>
-                    <div className="songBox__playtime mr">
-                        {`${parseInt(song.playtime / 60)}:${song.playtime % 60}`}
+                    <div className="songBox__num">{song.num}</div>
+                    <div className="songBox__song">{song.song}</div>
+                    <div className="songBox__playtime">
+                        <p>{`${parseInt(song.playtime / 60)}:${song.playtime % 60 >= 10 ? song.playtime % 60 : "0" + song.playtime % 60}`}</p>
                     </div>
                 </div>
             )
