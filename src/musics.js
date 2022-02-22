@@ -8,7 +8,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 182,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=2",
         },
         {
             "num": 2,
@@ -18,7 +19,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 169,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=3",
         },
         {
             "num": 3,
@@ -28,7 +30,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 181,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=4",
         },
         {
             "num": 4,
@@ -38,7 +41,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 169,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=5",
         },
         {
             "num": 5,
@@ -48,7 +52,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 246,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=6",
         },
         {
             "num": 6,
@@ -58,7 +63,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 199,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=7",
         },
         {
             "num": 7,
@@ -68,7 +74,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 178,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=8",
         },
         {
             "num": 8,
@@ -78,7 +85,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 227,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=9",
         },
         {
             "num": 9,
@@ -88,7 +96,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 256,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=10",
         },
         {
             "num": 10,
@@ -98,7 +107,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 107,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=ipiNLO6-WrM&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=11",
         },
         {
             "num": 11,
@@ -108,7 +118,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 269,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=12",
         },
         {
             "num": 12,
@@ -118,7 +129,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 193,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=13",
         },
         {
             "num": 13,
@@ -128,7 +140,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 197,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=14",
         },
         {
             "num": 14,
@@ -138,7 +151,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 219,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=15",
         },
         {
             "num": 15,
@@ -148,7 +162,8 @@ let musics = {
             "release": "2020.03.06",
             "playtime": 198,
             "genre": "R&B",
-            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg"
+            "cover": "https://image.bugsm.co.kr/album/images/500/9854/985425.jpg",
+            "url": "https://www.youtube.com/watch?v=hlZpDbi56Qc&list=PLko9B37V-MRH8nUKACy_Rp2Imzo5bheaX&index=16",
         },
         {
             "num": 1,
@@ -158,7 +173,8 @@ let musics = {
             "release": "2021.11.11",
             "playtime": 200,
             "genre": "R&B",
-            "cover": "https://imagescdn.junodownload.com/300/CS5336022-02A-MED.jpg"
+            "cover": "https://imagescdn.junodownload.com/300/CS5336022-02A-MED.jpg",
+            "url": "https://youtu.be/YVPAs42vgfE",
         },
         {
             "num": 1,
@@ -168,7 +184,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
         {
             "num": 1,
@@ -178,7 +195,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
         {
             "num": 1,
@@ -188,7 +206,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
         {
             "num": 1,
@@ -198,7 +217,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
         {
             "num": 1,
@@ -208,7 +228,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
         {
             "num": 1,
@@ -218,7 +239,8 @@ let musics = {
             "release": "2021.1.27",
             "playtime": 170,
             "genre": "R&B",
-            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg"
+            "cover": "https://s.mxmcdn.net/images-storage/albums4/8/9/5/6/1/5/52516598_800_800.jpg",
+            "url": "https://youtu.be/R176lnVtwyg",
         },
     ]
 }

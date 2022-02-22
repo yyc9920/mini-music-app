@@ -3,10 +3,61 @@
 
     &__container {
         display: grid;
+        position: relative;
         align-items: center;
         grid-template-columns: 100px 2fr 0.2fr;
         padding: 10px;
         border-bottom: 1px solid rgba(0,0,0,0.1);
+
+        .songBox__num {
+            opacity: 1;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .songBox__play {
+            position: absolute;
+            left: 4px;
+            opacity: 0;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+
+        }
+    }
+
+    i {
+        font-size: 1.8em;
+        color: black;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__container:hover {
+        .songBox__num {
+            opacity: 0;
+        }
+
+        .songBox__play {
+            opacity: 1;
+
+        }
+    }
+
+    i:hover {
+        color: red;
+    }
+
+    &__song:hover {
+        text-decoration: underline;
     }
 
     &__playtime {
