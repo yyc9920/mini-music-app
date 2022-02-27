@@ -43,8 +43,12 @@
     ```
 
 ### create-react-app
+
 - 프로젝트를 시작하기 원하는 폴더에서 아래 커맨드 실행
     ```bash
     npx create-react-app my-app
     ```
 
+## TODO
+
+- Song View
