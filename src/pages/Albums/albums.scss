@@ -2,12 +2,6 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    // height: 100vh;
-    padding-bottom: 6em;
-
-    // &__cover {
-    //     flex : 1;
-    // }
 
     &__info {
         margin-left: 2em;
@@ -17,11 +11,12 @@
             color: rgb(99, 99, 99);
         }
     }
+}
 
-    &__playlist {
-        width: 60em;
-        margin-top: 1em;
-    }
+.albumDetail__playlist {
+    width: 60em;
+    margin-top: 1em;
+    padding-bottom: 6em;
 }
 
 .mb {

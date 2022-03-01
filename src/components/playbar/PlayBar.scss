@@ -9,10 +9,51 @@
     display: flex;
     justify-content: space-between;
 
+    &__controller {
+        text-align: center;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .bx-rewind {
+            margin-left: 1rem;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .bx-play {
+            font-size: 2.4rem;
+            color: white;
+        }
+
+        .bx-fast-forward {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .bx-repeat {
+            margin-left: 1rem;
+            font-size: 1.6rem;
+            color: white;
+        }
+
+        .bx-shuffle {
+            font-size: 1.6rem;
+            color: white;
+        }
+
+        i {
+            padding: 0 .1rem;
+        }
+    }
+
     &__info {
         display: flex;
         align-items: center;
-        width: 200px;
+        justify-content: center;
+        width: 800px;
 
         .playbar__cover {
             width: 40px;
@@ -20,59 +61,23 @@
 
             .playbar__coverimg {
                 width: 40px;
+                border-radius: 1rem;
             }
         }
 
         .playbar__desc {
-            margin-left: 1rem;
+            margin-left: .8rem;
 
             .playbar__desc__song {
                 color: white;
+                font-size: .8rem;
             }
 
-            .playbar__desc__artist {
-                color: white;
-                margin-top: 0.3rem;
-                font-size: 0.8rem;
+            .playbar__desc__downside {
+                color: rgb(165, 165, 165);
+                margin-top: 0.1rem;
+                font-size: .8rem;
             }
-        }
-    }
-
-    &__controller {
-        text-align: center;
-        width: 50em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-        .bx-shuffle {
-            font-size: 1.8rem;
-            color: white;
-        }
-
-        .bx-rewind {
-            font-size: 2.2rem;
-            color: white;
-        }
-
-        .bx-play {
-            font-size: 2.6rem;
-            color: white;
-        }
-
-        .bx-fast-forward {
-            font-size: 2.2rem;
-            color: white;
-        }
-
-        .bx-repeat {
-            font-size: 1.8rem;
-            color: white;
-        }
-
-        i {
-            padding: 0 .8rem;
         }
     }
 

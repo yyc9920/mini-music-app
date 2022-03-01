@@ -11,6 +11,14 @@ export default function PlayBar() {
 
     return (
         <div className="playbar">
+            <div className="playbar__controller">
+                <i className='bx bx-rewind'></i>
+                <i className='bx bx-play' ></i>
+                <i className='bx bx-fast-forward' ></i>
+                <i className='bx bx-repeat'></i>
+                <i className='bx bx-shuffle'></i>
+            </div>
+
             <div className="playbar__info">
                 <div className="playbar__cover">
                     <img
@@ -23,18 +31,16 @@ export default function PlayBar() {
                     <div className="playbar__desc__song">
                         Song Name
                     </div>
-                    <div className="playbar__desc__artist">
-                        Artist Name
+                    <div className="playbar__desc__downside">
+                        <span>Artist Name</span>
+                        <span> • </span>
+                        <span>Album Name</span>
+                        <span> • </span>
+                        <span>Release Year</span>
                     </div>
                 </div>
             </div>
-            <div className="playbar__controller">
-                <i className='bx bx-shuffle'></i>
-                <i className='bx bx-rewind'></i>
-                <i className='bx bx-play' ></i>
-                <i className='bx bx-fast-forward' ></i>
-                <i className='bx bx-repeat'></i>
-            </div>
+
             <div className="playbar__status">
                 <div className="playtime">
                     <span className="now">00:00 /</span>
