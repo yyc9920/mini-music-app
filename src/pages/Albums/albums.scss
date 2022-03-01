@@ -1,6 +1,9 @@
 .albumDetail {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    // height: 100vh;
+    padding-bottom: 6em;
 
     // &__cover {
     //     flex : 1;
@@ -16,9 +19,8 @@
     }
 
     &__playlist {
-        position: absolute;
         width: 60em;
-        margin-top: 17em;
+        margin-top: 1em;
     }
 }
 

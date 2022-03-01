@@ -1,0 +1,99 @@
+.playbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1001;
+    height: 4em;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+    &__info {
+        display: flex;
+        align-items: center;
+        width: 200px;
+
+        .playbar__cover {
+            width: 40px;
+            margin-left: 1rem;
+
+            .playbar__coverimg {
+                width: 40px;
+            }
+        }
+
+        .playbar__desc {
+            margin-left: 1rem;
+
+            .playbar__desc__song {
+                color: white;
+            }
+
+            .playbar__desc__artist {
+                color: white;
+                margin-top: 0.3rem;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    &__controller {
+        text-align: center;
+        width: 50em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .bx-shuffle {
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .bx-rewind {
+            font-size: 2.2rem;
+            color: white;
+        }
+
+        .bx-play {
+            font-size: 2.6rem;
+            color: white;
+        }
+
+        .bx-fast-forward {
+            font-size: 2.2rem;
+            color: white;
+        }
+
+        .bx-repeat {
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        i {
+            padding: 0 .8rem;
+        }
+    }
+
+    &__status {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+
+        .playtime {
+            margin-left: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .volumebar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 200px;
+        }
+    }
+}
